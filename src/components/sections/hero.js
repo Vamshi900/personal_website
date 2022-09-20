@@ -64,7 +64,7 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a New York based software engineer specializing in building (and occasionally designing) exceptional digital experiences and seamless data flows.Currently purusing  master's in CS @Rutgers University Graduating in May 2023.
+        A New York based software engineer specializing in building  exceptional digital experiences and seamless data flows.Currently purusing  master's in CS @Rutgers University Graduating in May 2023.
       </p>
     </>
   );
@@ -78,7 +78,7 @@ const Hero = () => {
   //   </a>
   // );
 
-  const items = [one, two, three, four];
+  const items = [ two, three, four];
 
   return (
     <StyledHeroSection>

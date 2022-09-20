@@ -11,5 +11,5 @@ tech:
   - Vanilla GAN
 ---
 
-Built a Various Image translation Maachine Learning GAN models for pizza image transalations which are used to detect various embbedings like topppings ,which could be further utilised for calorie prediction of the meal.
+Built a Various Image translation Machine Learning GAN models for pizza image transalations which are used to detect various embbedings like topppings ,which could be further utilised for calorie prediction of the meal.
 
