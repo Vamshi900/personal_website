@@ -145,9 +145,9 @@ const About = () => {
             <p>
               Fast-forward to today, and I’ve had the privilege of working in{' '}
               
-              <a href="https://starry.com/"> start-ups</a>,{' '}
-              <a href="https://www.apple.com/"> huge corporation's</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">contribute to cancer research </a>. My
+              <a href="https://www.striim.com/"> start-ups</a>,{' '}
+              <a href="https://www.3ds.com/"> huge corporation's</a>, and{' '}
+              <a href="https://www.mitrofanova-lab.org/">contribute to cancer research </a>. My
               main focus these days is building accessible, high perfomant systems inclusive of all parts of the stack(Frontend+Backend+Database+Deployment). 
             </p>
 
