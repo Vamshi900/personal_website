@@ -4197,6 +4197,23 @@ var plugins = [{
     "pageTransitionDelay": 0,
     "enableWebVitalsTracking": false
   }
+}, {
+  name: 'gatsby-plugin-google-analytics',
+  plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-google-analytics/gatsby-ssr */ "./node_modules/gatsby-plugin-google-analytics/gatsby-ssr.js"),
+  options: {
+    "plugins": [],
+    "trackingId": "G-JNP6EY70G0",
+    "head": false,
+    "anonymize": true,
+    "respectDNT": true,
+    "exclude": ["/preview/**", "/do-not-track/me/too/"],
+    "pageTransitionDelay": 0,
+    "defer": false,
+    "sampleRate": 5,
+    "siteSpeedSampleRate": 10,
+    "cookieDomain": "vamshisaggurthi.com",
+    "enableWebVitalsTracking": true
+  }
 }];
 /* global plugins */
 // During bootstrap, we write requires at top of this file which looks like:
