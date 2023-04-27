@@ -3,10 +3,22 @@ import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 import { useLocation } from '@reach/router';
 import { useStaticQuery, graphql } from 'gatsby';
+import ReactGA from 'react-ga4';
 
-// https://www.gatsbyjs.com/docs/add-seo-component/
+const TRACKING_ID = "G-JNP6EY70G0"; // OUR_TRACKING_ID
+
+ReactGA.initialize([
+  {
+    trackingId: TRACKING_ID,
+  },
+]);
 
 const Head = ({ title, description, image }) => {
+  useEffect(() => {
+    console.log("website opened");
+    ReactGA.send({ hitType: "pageview", page: "/home", title: "website opened" });
+    console.log("evenet recorded");
+  }, []);
   const { pathname } = useLocation();
 
   const { site } = useStaticQuery(

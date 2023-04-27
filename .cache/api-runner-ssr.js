@@ -22,14 +22,6 @@ var plugins = [{
       name: 'gatsby-plugin-offline',
       plugin: require('/Users/vamshisaggurthi/Downloads/Devlopment/Personal website/personal_website/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},
-    },{
-      name: 'gatsby-plugin-google-analytics',
-      plugin: require('/Users/vamshisaggurthi/Downloads/Devlopment/Personal website/personal_website/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
-      options: {"plugins":[],"trackingId":"UA-45666519-2","head":false,"anonymize":false,"respectDNT":false,"exclude":[],"pageTransitionDelay":0,"enableWebVitalsTracking":false},
-    },{
-      name: 'gatsby-plugin-google-analytics',
-      plugin: require('/Users/vamshisaggurthi/Downloads/Devlopment/Personal website/personal_website/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
-      options: {"plugins":[],"trackingId":"G-JNP6EY70G0","head":false,"anonymize":true,"respectDNT":true,"exclude":["/preview/**","/do-not-track/me/too/"],"pageTransitionDelay":0,"defer":false,"sampleRate":5,"siteSpeedSampleRate":10,"cookieDomain":"vamshisaggurthi.com","enableWebVitalsTracking":true},
     }]
 /* global plugins */
 // During bootstrap, we write requires at top of this file which looks like:

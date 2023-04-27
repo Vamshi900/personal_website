@@ -8,6 +8,15 @@ import { loaderDelay } from '@utils';
 import { useScrollDirection, usePrefersReducedMotion } from '@hooks';
 import { Menu } from '@components';
 import { IconLogo } from '@components/icons';
+import ReactGA from 'react-ga4';
+
+const TRACKING_ID = "G-JNP6EY70G0"; // OUR_TRACKING_ID
+
+ReactGA.initialize([
+  {
+    trackingId: TRACKING_ID,
+  },
+]);
 
 const StyledHeader = styled.header`
   ${({ theme }) => theme.mixins.flexBetween};
@@ -194,7 +203,9 @@ const Nav = ({ isHome }) => {
                     </li>
                   ))}
               </ol>
-              <div>{ResumeLink}</div>
+              <div onClick={()=>{
+                ReactGA.send({ hitType: "Resume downloaded", page: "/resume", title: "Resume downloaded" });
+              }}>{ResumeLink}</div>
             </StyledLinks>
 
             <Menu />
