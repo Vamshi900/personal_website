@@ -126,7 +126,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Python','Java','JavaScript (ES6+)','React','Dash'];
+  const skills = ['Python','Java','React','JavaScript (ES6+)','Docker','Kubernetes'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -148,7 +148,7 @@ const About = () => {
               <a href="https://www.striim.com/"> start-ups</a>,{' '}
               <a href="https://www.3ds.com/"> huge corporation's</a>, and{' '}
               <a href="https://www.mitrofanova-lab.org/">contribute to cancer research </a>. My
-              main focus these days is building accessible, high perfomant systems inclusive of all parts of the stack(Frontend+Backend+Database+Deployment). 
+              main focus these days is building accessible, high performant systems inclusive of all parts of the stack(Frontend+Backend+Database+Deployment). 
             </p>
 
             <p>

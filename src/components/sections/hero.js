@@ -64,7 +64,7 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        A New York based software engineer specializing in building  exceptional digital experiences and seamless data flows.Currently purusing  master's in CS @Rutgers University Graduating in May 2023.
+        A San Fransico based Software engineer specializing in building  exceptional digital experiences and seamless data flows.  Working as Full Stack Engineer @Striim.
       </p>
     </>
   );

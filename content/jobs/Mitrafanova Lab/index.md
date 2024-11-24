@@ -3,7 +3,7 @@ date: '2021-12-21'
 title: 'Research Assitant'
 company: 'Dr.Mitrafanova Lab'
 location: 'Newark, NJ'
-range: 'December 2021 - Present '
+range: 'Jan 2021 - May 2023 '
 url: 'https://www.mitrofanova-lab.org/'
 ---
 
