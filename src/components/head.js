@@ -7,17 +7,19 @@ import ReactGA from 'react-ga4';
 
 const TRACKING_ID = "G-JNP6EY70G0"; // OUR_TRACKING_ID
 
-ReactGA.initialize([
-  {
-    trackingId: TRACKING_ID,
-  },
-]);
-
 const Head = ({ title, description, image }) => {
   useEffect(() => {
-    console.log("website opened");
-    ReactGA.send({ hitType: "pageview", page: "/home", title: "website opened" });
-    console.log("evenet recorded");
+    // Initialize ReactGA only on the client side to avoid prerendering violations
+    if (typeof window !== 'undefined') {
+      ReactGA.initialize([
+        {
+          trackingId: TRACKING_ID,
+        },
+      ]);
+      console.log("website opened");
+      ReactGA.send({ hitType: "pageview", page: "/home", title: "website opened" });
+      console.log("evenet recorded");
+    }
   }, []);
   const { pathname } = useLocation();
 
