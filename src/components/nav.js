@@ -10,14 +10,6 @@ import { Menu } from '@components';
 import { IconLogo } from '@components/icons';
 import ReactGA from 'react-ga4';
 
-const TRACKING_ID = "G-JNP6EY70G0"; // OUR_TRACKING_ID
-
-ReactGA.initialize([
-  {
-    trackingId: TRACKING_ID,
-  },
-]);
-
 const StyledHeader = styled.header`
   ${({ theme }) => theme.mixins.flexBetween};
   position: fixed;
