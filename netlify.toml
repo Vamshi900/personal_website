@@ -1,0 +1,22 @@
+# Netlify Configuration
+# Documentation: https://docs.netlify.com/configure-builds/file-based-configuration/
+
+[build]
+  # Build command
+  command = "npm run build"
+
+  # Publish directory
+  publish = "public"
+
+[build.environment]
+  # Use Node.js 20.x LTS (replaces deprecated Node 16.x)
+  # https://docs.netlify.com/configure-builds/manage-dependencies/#node-js-and-javascript
+  NODE_VERSION = "20"
+
+  # Use Ubuntu 22.04 Jammy build image (replaces deprecated Focal)
+  # https://docs.netlify.com/configure-builds/get-started/#build-image-selection
+  AWS_LAMBDA_JS_RUNTIME = "nodejs20.x"
+
+# Configure Gatsby-specific settings
+[[plugins]]
+  package = "@netlify/plugin-gatsby"
