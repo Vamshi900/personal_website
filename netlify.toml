@@ -9,13 +9,14 @@
   publish = "public"
 
 [build.environment]
-  # Use Node.js 20.x LTS (replaces deprecated Node 16.x)
+  # Use Node.js 22.x LTS (replaces deprecated Node 16.x)
+  # Node 22 is required for optimal Agent Runners compatibility
   # https://docs.netlify.com/configure-builds/manage-dependencies/#node-js-and-javascript
-  NODE_VERSION = "20"
+  NODE_VERSION = "22"
 
   # Use Ubuntu 22.04 Jammy build image (replaces deprecated Focal)
   # https://docs.netlify.com/configure-builds/get-started/#build-image-selection
-  AWS_LAMBDA_JS_RUNTIME = "nodejs20.x"
+  AWS_LAMBDA_JS_RUNTIME = "nodejs22.x"
 
 # Configure Gatsby-specific settings
 [[plugins]]
