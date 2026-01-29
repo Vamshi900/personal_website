@@ -55,12 +55,13 @@ const Contact = () => {
 
   return (
     <StyledContactSection id="contact" ref={revealContainer}>
-      <h2 className="numbered-heading overline">What’s Next?</h2>
+      <h2 className="numbered-heading overline">What's Next?</h2>
 
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        I’m Actively looking for Full Stack Engineering/Data Engineering opportunities which help me build things. my inbox is always open.
+        I'm actively exploring opportunities in software engineering, distributed systems, and AI-powered applications where I can build meaningful systems.
+        Feel free to reach out — my inbox is always open.
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>
