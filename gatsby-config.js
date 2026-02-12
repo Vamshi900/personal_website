@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Vamshi Saggurthi',
     description:
-      'Vamshi is a full stack software engineer who specializes in building end to end applications in python+react (and occasionally designing) exceptional digital experiences.',
+      'Vamshi is a Full Stack Software Engineer specializing in building end-to-end applications, AI systems, and reliable hardware infrastructure.',
     siteUrl: 'https://vamshisaggurthi.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
   },

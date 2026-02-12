@@ -2,15 +2,17 @@
 date: '2023-07-05'
 title: 'Senior Software Engineer'
 company: 'Striim'
-location: 'PaloAlto, CA'
-range: 'July 2023 - Present'
+location: 'Palo Alto, CA'
+range: 'July 2023 - June 2025'
 url: 'https://www.striim.com/'
 ---
 
-- **Real Time PII Detection**: Researched ,Designed, implemented ,real time PII detection while streaming data at scale , on a single GPU 
-- Lead introduction of Micro Services with gRPC in monolith applications of on-prem deployment and also scaled it cloud services 
-- **Striim Copilot** :Built Striim CopilotAgent’s solving customer issues , and automating the pipeline creations , for real time streaming. 
-- **Real time Encryption**: Designed ,Developed cloud kms based envelope encryption in real time streaming systems , enhanced the open source sdk’s to match the high throughput demands ( 100k events /sec) 
-- **Observability**:  Built POC to move from custom telemetry system to OTEL backed for better observability , moving from legacy lo4j log debugging 
+- Designed and implemented real-time PII detection in distributed streaming systems processing 3M+ events/hour on a single GPU.
+- Built synthetic workloads and stress tests to validate correctness and latency under peak throughput.
+- Defined throughput and latency SLOs and implemented automated validation pipelines for streaming services.
+- Introduced gRPC-based microservices into a monolithic on-prem platform, enabling interaction testing across distributed components.
+- Designed and implemented real-time envelope encryption using cloud KMS, supporting 100k+ events/sec with correctness guarantees.
+- Built production observability infrastructure using OpenTelemetry, replacing legacy logging-only debugging with metrics and traces.
+- Developed multi-agent Copilot systems to automate pipeline creation and diagnose customer issues at scale. 
 
 

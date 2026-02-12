@@ -58,13 +58,14 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
+
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Vamshi Saggurthi.</h2>;
-  const three = <h3 className="big-heading">I am Full Stack Software Engineer.</h3>;
+  const three = <h3 className="big-heading">I am a Full Stack Software Engineer.</h3>;
   const four = (
     <>
       <p>
-        A San Fransico based Software engineer specializing in building  exceptional digital experiences and seamless data flows.  Working as Full Stack Engineer @Striim.
+        A San Francisco–based software engineer specializing in distributed systems and AI-driven applications
       </p>
     </>
   );
@@ -78,7 +79,7 @@ const Hero = () => {
   //   </a>
   // );
 
-  const items = [ two, three, four];
+  const items = [two, three, four];
 
   return (
     <StyledHeroSection>

@@ -1,1 +1,0 @@
-require("/workspaces/personal_website/node_modules/gatsby/dist/utils/telemetry-server.js").default(40345)

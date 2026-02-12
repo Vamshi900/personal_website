@@ -126,7 +126,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Python','Java','React','JavaScript (ES6+)','Docker','Kubernetes'];
+  const skills = ['Python','Java','React','TensorFlow/PyTorch','Kubernetes','AWS'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -136,26 +136,31 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Vamshi and I enjoy creating things that live on the internet. My
-              interest in software development started back in 2015 when I decided to try editing custom
-              WordPress themes for a blog — turns out hacking together a custom logos and branding taught me a lot
-              about HTML &amp; CSS!
+              Hi, I'm Vamshi — a software engineer who enjoys working on complex distributed systems problems and building AI-powered applications on top of them.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working in{' '}
-              
-              <a href="https://www.striim.com/"> start-ups</a>,{' '}
-              <a href="https://www.3ds.com/"> huge corporation's</a>, and{' '}
-              <a href="https://www.mitrofanova-lab.org/">contribute to cancer research </a>. My
-              main focus these days is building accessible, high performant systems inclusive of all parts of the stack(Frontend+Backend+Database+Deployment). 
+              I started out with web applications, which gave me a strong foundation in how users interact with software. Over time, my interests shifted toward the harder parts of systems: streaming platforms, microservices, data pipelines, and the infrastructure needed to run them reliably at scale.
             </p>
 
             <p>
-              I also recently  have been building data streams for huge computational anaylis and real time analytics deriving some key insights which is quite exciting.
+              I've worked at{' '}
+              <a href="https://www.amazon.com/">Amazon</a>,{' '}
+              <a href="https://www.striim.com/">Striim</a>, and{' '}
+              <a href="https://www.3ds.com/">Dassault Systèmes</a>, and contributed to research published in{' '}
+              <a href="https://www.nature.com/articles/s41467-024-44686-5">Nature Communications</a> and{' '}
+              <a href="https://dl.acm.org/doi/10.1145/3722212.3725127">SIGMOD</a>. Today, my work mainly focuses on designing and operating distributed systems, building AI-driven applications and automation, and creating systems that are reliable, observable, and performant at scale.
             </p>
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>
+              I'm especially interested in the kinds of entropy that show up in large systems — partial failures, inconsistent state, noisy signals, and unpredictable workloads — and in designing software that stays understandable and dependable despite that complexity.
+            </p>
+
+            <p>
+              I enjoy working end-to-end, from APIs and user-facing tools to backend services and infrastructure, and I care deeply about building systems that are correct, resilient, and easy to reason about in production.
+            </p>
+
+            <p>Here are a few technologies I've been working with recently:</p>
           </div>
 
           <ul className="skills-list">

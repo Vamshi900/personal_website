@@ -1,26 +1,26 @@
 var plugins = [{
       name: 'gatsby-plugin-react-helmet',
-      plugin: require('/workspaces/personal_website/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/vamshisaggurthi/Downloads/Devlopment/Personal website/personal_website/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
       name: 'gatsby-plugin-styled-components',
-      plugin: require('/workspaces/personal_website/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      plugin: require('/Users/vamshisaggurthi/Downloads/Devlopment/Personal website/personal_website/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[],"displayName":true,"fileName":true,"minify":true,"namespace":"","transpileTemplateLiterals":true,"topLevelImportPaths":[],"pure":false,"disableVendorPrefixes":false},
     },{
       name: 'gatsby-plugin-image',
-      plugin: require('/workspaces/personal_website/node_modules/gatsby-plugin-image/gatsby-ssr'),
+      plugin: require('/Users/vamshisaggurthi/Downloads/Devlopment/Personal website/personal_website/node_modules/gatsby-plugin-image/gatsby-ssr'),
       options: {"plugins":[]},
     },{
       name: 'gatsby-plugin-sitemap',
-      plugin: require('/workspaces/personal_website/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
+      plugin: require('/Users/vamshisaggurthi/Downloads/Devlopment/Personal website/personal_website/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
       options: {"plugins":[],"output":"/sitemap","createLinkInHead":true,"entryLimit":45000,"query":"{ site { siteMetadata { siteUrl } } allSitePage { nodes { path } } }","excludes":[]},
     },{
       name: 'gatsby-plugin-manifest',
-      plugin: require('/workspaces/personal_website/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('/Users/vamshisaggurthi/Downloads/Devlopment/Personal website/personal_website/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"Vamshi Saggurthi","short_name":"Vamshi Saggurthi","start_url":"/","background_color":"#020c1b","theme_color":"#0a192f","display":"minimal-ui","icon":"src/images/logo.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"768188b28cc7a8a6a8ba206d2da5ed15"},
     },{
       name: 'gatsby-plugin-offline',
-      plugin: require('/workspaces/personal_website/node_modules/gatsby-plugin-offline/gatsby-ssr'),
+      plugin: require('/Users/vamshisaggurthi/Downloads/Devlopment/Personal website/personal_website/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 /* global plugins */
